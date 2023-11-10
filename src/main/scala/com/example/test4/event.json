@@ -1,0 +1,491 @@
+{
+  "_id": "652caaa787f0e475eb2bb888",
+  "surveyId": "652ca9afad0c2fd53ecfd0fb",
+  "createdBy": "62cbc6192172293c418c5146",
+  "status": "inprogress",
+  "criteria": [
+    {
+      "_id": "651e36b082d5db5fdda6d81b",
+      "__v": 0,
+      "createdAt": "2023-10-05T04:08:18.853Z",
+      "criteriaType": "manual",
+      "deleted": false,
+      "description": "Survey and Feedback",
+      "externalId": "a23f1806-6334-11ee-9ad4-1e9c08f9812b-1696478896841-SF",
+      "flag": null,
+      "frameworkCriteriaId": null,
+      "name": "Survey and Feedback",
+      "owner": "62cbc6192172293c418c5146",
+      "remarks": null,
+      "rubric": null,
+      "score": null,
+      "showRemarks": null,
+      "timesUsed": null,
+      "updatedAt": "2023-10-05T04:08:18.853Z",
+      "weightage": 0
+    }
+  ],
+  "solutionId": "651e36b382d5db5fdda6d820",
+  "solutionExternalId": "a23f1806-6334-11ee-9ad4-1e9c08f9812b-1696478896841",
+  "isAPrivateProgram": false,
+  "surveyInformation": {
+    "name": "Testing Survey for Support",
+    "description": "Testing Survey for Support",
+    "createdBy": "62cbc6192172293c418c5146",
+    "solutionId": "651e36b382d5db5fdda6d820",
+    "solutionExternalId": "a23f1806-6334-11ee-9ad4-1e9c08f9812b-1696478896841",
+    "startDate": "2023-10-16T03:14:47.491Z",
+    "endDate": "2023-07-13T23:59:59.000Z",
+    "status": "published",
+    "createdFor": [],
+    "rootOrganisations": [],
+    "isDeleted": false,
+    "isAPrivateProgram": false,
+    "updatedAt": "2023-10-16T03:10:39.816Z",
+    "createdAt": "2023-10-16T03:10:39.816Z"
+  },
+  "deleted": false,
+  "updatedAt": "2023-10-16T03:15:11.727Z",
+  "createdAt": "2023-10-16T03:14:47.495Z",
+  "__v": 0,
+  "evidencesStatus": [
+    {
+      "externalId": "SF",
+      "name": "Survey And Feedback",
+      "description": "Survey And Feedback",
+      "modeOfCollection": "",
+      "canBeNotApplicable": false,
+      "notApplicable": null,
+      "canBeNotAllowed": false,
+      "remarks": "",
+      "isActive": true,
+      "startTime": 1695186937920,
+      "endTime": 1695186964298,
+      "isSubmitted": true,
+      "submissions": [
+        {
+          "externalId": "SF",
+          "startTime": 1695186937920,
+          "endTime": 1695186964298,
+          "userAgent": "PostmanRuntime/7.32.3",
+          "gpsLocation": null,
+          "submittedBy": "62cbc6192172293c418c5146",
+          "submittedByName": "Ankit",
+          "submittedByEmail": "ankit.s@pacewisdom.com",
+          "submissionDate": "2023-10-16T03:15:11.723Z",
+          "isValid": true
+        }
+      ],
+      "hasConflicts": false
+    }
+  ],
+  "evidences": {
+    "SF": {
+      "externalId": "SF",
+      "name": "Survey And Feedback",
+      "description": "Survey And Feedback",
+      "modeOfCollection": "",
+      "canBeNotApplicable": false,
+      "notApplicable": false,
+      "canBeNotAllowed": false,
+      "remarks": "",
+      "isActive": true,
+      "startTime": 1695186937920,
+      "endTime": 1695186964298,
+      "isSubmitted": true,
+      "submissions": [
+        {
+          "externalId": "SF",
+          "answers": {
+            "6502fa94297c610008daa5e3": {
+              "qid": "6502fa94297c610008daa5e3",
+              "value": "fcf",
+              "remarks": "",
+              "fileName": [],
+              "gpsLocation": "",
+              "payload": {
+                "question": [
+                  "Enter your First question",
+                  ""
+                ],
+                "labels": [
+                  "fcf"
+                ],
+                "responseType": "text",
+                "filesNotUploaded": []
+              },
+              "startTime": 1695186938055,
+              "endTime": 1695186942225,
+              "criteriaId": "6502fa94297c610008daa5f4",
+              "responseType": "text",
+              "evidenceMethod": "SF",
+              "rubricLevel": ""
+            },
+            "6502fa94297c610008daa5e4": {
+              "qid": "6502fa94297c610008daa5e4",
+              "value": "R1",
+              "remarks": "",
+              "fileName": [],
+              "gpsLocation": "",
+              "payload": {
+                "question": [
+                  "Enter your Second question",
+                  ""
+                ],
+                "labels": [
+                  "Yes"
+                ],
+                "responseType": "radio",
+                "filesNotUploaded": []
+              },
+              "startTime": 1695186938074,
+              "endTime": 1695186942836,
+              "criteriaId": "6502fa94297c610008daa5f4",
+              "responseType": "radio",
+              "evidenceMethod": "SF",
+              "rubricLevel": ""
+            },
+            "6502fa94297c610008daa5e5": {
+              "qid": "6502fa94297c610008daa5e5",
+              "value": "",
+              "remarks": "",
+              "fileName": [],
+              "gpsLocation": "",
+              "payload": {
+                "question": [
+                  "Are you planning to come back?",
+                  ""
+                ],
+                "labels": [],
+                "responseType": "multiselect",
+                "filesNotUploaded": []
+              },
+              "startTime": "",
+              "endTime": "",
+              "criteriaId": "6502fa94297c610008daa5f4",
+              "responseType": "multiselect",
+              "evidenceMethod": "SF",
+              "rubricLevel": ""
+            },
+            "6502fa94297c610008daa5e6": {
+              "qid": "6502fa94297c610008daa5e6",
+              "value": "2023-09-05T10:45:00+05:30",
+              "remarks": "",
+              "fileName": [],
+              "gpsLocation": "",
+              "payload": {
+                "question": [
+                  "What type of device is available at home?",
+                  ""
+                ],
+                "labels": [
+                  "2023-09-05T10:45:00+05:30"
+                ],
+                "responseType": "date",
+                "filesNotUploaded": []
+              },
+              "startTime": 1695186946316,
+              "endTime": "",
+              "criteriaId": "6502fa94297c610008daa5f4",
+              "responseType": "date",
+              "evidenceMethod": "SF",
+              "rubricLevel": ""
+            },
+            "6502fa94297c610008daa5e7": {
+              "qid": "6502fa94297c610008daa5e7",
+              "value": [
+                {
+                  "6502fa94297c610008daa5e8": {
+                    "qid": "6502fa94297c610008daa5e8",
+                    "value": [
+                      "R2"
+                    ],
+                    "remarks": "",
+                    "fileName": [],
+                    "gpsLocation": "",
+                    "payload": {
+                      "question": [
+                        "Were you able to enroll your child in courses on Diksha?",
+                        ""
+                      ],
+                      "labels": [
+                        "Not aware of classrooms on DIKSHA"
+                      ],
+                      "responseType": "multiselect"
+                    },
+                    "startTime": 1695186956657,
+                    "endTime": 1695186957563,
+                    "criteriaId": "6502fa94297c610008daa5f4",
+                    "responseType": "multiselect",
+                    "evidenceMethod": "SF",
+                    "rubricLevel": ""
+                  },
+                  "6502fa94297c610008daa5e9": {
+                    "qid": "6502fa94297c610008daa5e9",
+                    "value": 2,
+                    "remarks": "",
+                    "fileName": [],
+                    "gpsLocation": "",
+                    "payload": {
+                      "question": [
+                        "What are the challenges that you are facing in enrolment?",
+                        ""
+                      ],
+                      "labels": [
+                        2
+                      ],
+                      "responseType": "slider"
+                    },
+                    "startTime": 1695186956682,
+                    "endTime": 1695186959094,
+                    "criteriaId": "6502fa94297c610008daa5f4",
+                    "responseType": "slider",
+                    "evidenceMethod": "SF",
+                    "rubricLevel": ""
+                  }
+                }
+              ],
+              "remarks": "",
+              "fileName": [],
+              "gpsLocation": "",
+              "payload": {
+                "question": [
+                  "Does the child have a quiet place to study?",
+                  ""
+                ],
+                "labels": [
+                  [
+                    [
+                      {
+                        "_id": "6502fa94297c610008daa5e8",
+                        "question": [
+                          "Were you able to enroll your child in courses on Diksha?",
+                          ""
+                        ],
+                        "isCompleted": true,
+                        "showRemarks": false,
+                        "options": [
+                          {
+                            "value": "R1",
+                            "label": "Not able to use the app"
+                          },
+                          {
+                            "value": "R2",
+                            "label": "Not aware of classrooms on DIKSHA"
+                          },
+                          {
+                            "value": "R3",
+                            "label": "Not aware of the enrolment process in the classroom"
+                          },
+                          {
+                            "value": "R4",
+                            "label": "Not aware of enrolment process in the courses"
+                          },
+                          {
+                            "value": "R5",
+                            "label": "Don’t find the courses useful"
+                          },
+                          {
+                            "value": "R6",
+                            "label": "Others"
+                          }
+                        ],
+                        "sliderOptions": [],
+                        "children": [],
+                        "questionGroup": [
+                          "A1"
+                        ],
+                        "fileName": [],
+                        "instanceQuestions": [],
+                        "isAGeneralQuestion": false,
+                        "autoCapture": false,
+                        "allowAudioRecording": false,
+                        "prefillFromEntityProfile": false,
+                        "entityFieldName": "",
+                        "isEditable": true,
+                        "showQuestionInPreview": false,
+                        "deleted": false,
+                        "remarks": "",
+                        "value": [
+                          "R2"
+                        ],
+                        "usedForScoring": "",
+                        "questionType": "auto",
+                        "canBeNotApplicable": "false",
+                        "visibleIf": "",
+                        "validation": {
+                          "required": true
+                        },
+                        "file": {
+                          "required": true,
+                          "type": [
+                            "image/jpeg",
+                            "docx",
+                            "pdf",
+                            "ppt"
+                          ],
+                          "minCount": 0,
+                          "maxCount": 10,
+                          "caption": "FALSE"
+                        },
+                        "externalId": "SUR_TEST_006_1694588701437-1694694036091",
+                        "tip": "",
+                        "hint": "",
+                        "responseType": "multiselect",
+                        "modeOfCollection": "onfield",
+                        "accessibility": "No",
+                        "rubricLevel": "",
+                        "sectionHeader": "",
+                        "page": "p4",
+                        "questionNumber": "4.1",
+                        "updatedAt": "2023-09-14T12:20:36.095Z",
+                        "createdAt": "2023-09-13T07:05:04.435Z",
+                        "__v": 0,
+                        "createdFromQuestionId": "65015f2020cdfc0008da7a19",
+                        "evidenceMethod": "SF",
+                        "payload": {
+                          "criteriaId": "6502fa94297c610008daa5f4",
+                          "responseType": "multiselect",
+                          "evidenceMethod": "SF",
+                          "rubricLevel": ""
+                        },
+                        "startTime": 1695186956657,
+                        "endTime": 1695186957563,
+                        "gpsLocation": ""
+                      },
+                      {
+                        "_id": "6502fa94297c610008daa5e9",
+                        "question": [
+                          "What are the challenges that you are facing in enrolment?",
+                          ""
+                        ],
+                        "isCompleted": true,
+                        "showRemarks": false,
+                        "options": [],
+                        "sliderOptions": [],
+                        "children": [],
+                        "questionGroup": [
+                          "A1"
+                        ],
+                        "fileName": [],
+                        "instanceQuestions": [],
+                        "isAGeneralQuestion": false,
+                        "autoCapture": false,
+                        "allowAudioRecording": false,
+                        "prefillFromEntityProfile": false,
+                        "entityFieldName": "",
+                        "isEditable": true,
+                        "showQuestionInPreview": false,
+                        "deleted": false,
+                        "remarks": "",
+                        "value": 2,
+                        "usedForScoring": "",
+                        "questionType": "auto",
+                        "canBeNotApplicable": "false",
+                        "visibleIf": "",
+                        "validation": {
+                          "required": true,
+                          "max": "5",
+                          "min": "1"
+                        },
+                        "file": {
+                          "required": true,
+                          "type": [
+                            "image/jpeg",
+                            "docx",
+                            "pdf",
+                            "ppt"
+                          ],
+                          "minCount": 0,
+                          "maxCount": 10,
+                          "caption": "FALSE"
+                        },
+                        "externalId": "SUR_TEST_007_1694588701437-1694694036092",
+                        "tip": "",
+                        "hint": "",
+                        "responseType": "slider",
+                        "modeOfCollection": "onfield",
+                        "accessibility": "No",
+                        "rubricLevel": "",
+                        "sectionHeader": "",
+                        "page": "p5",
+                        "questionNumber": "4.2",
+                        "updatedAt": "2023-09-14T12:20:36.095Z",
+                        "createdAt": "2023-09-13T07:05:04.515Z",
+                        "__v": 0,
+                        "createdFromQuestionId": "65015f2020cdfc0008da7a20",
+                        "evidenceMethod": "SF",
+                        "payload": {
+                          "criteriaId": "6502fa94297c610008daa5f4",
+                          "responseType": "slider",
+                          "evidenceMethod": "SF",
+                          "rubricLevel": ""
+                        },
+                        "startTime": 1695186956682,
+                        "endTime": 1695186959094,
+                        "gpsLocation": ""
+                      }
+                    ]
+                  ]
+                ],
+                "responseType": "matrix",
+                "filesNotUploaded": []
+              },
+              "startTime": 1695186953637,
+              "endTime": 1695186960426,
+              "criteriaId": "6502fa94297c610008daa5f4",
+              "responseType": "matrix",
+              "evidenceMethod": "SF",
+              "rubricLevel": "",
+              "countOfInstances": 1
+            }
+          },
+          "startTime": 1695186937920,
+          "endTime": 1695186964298,
+          "userAgent": "PostmanRuntime/7.32.3",
+          "gpsLocation": null,
+          "submittedBy": "62cbc6192172293c418c5146",
+          "submittedByName": "Ankit",
+          "submittedByEmail": "ankit.s@pacewisdom.com",
+          "submissionDate": "2023-10-16T03:15:11.723Z",
+          "isValid": true
+        }
+      ],
+      "hasConflicts": false
+    }
+  },
+  "answers": {
+    "6502fa94297c610008daa5e3": {
+      "qid": "6502fa94297c610008daa5e3",
+      "value": "fcf",
+      "question": "Enter your First name",
+      "labels": "adarsh",
+      "responseType": "text",
+      "filesNotUploaded": "",
+      "remarks": "",
+      "fileName": [],
+      "gpsLocation": "",
+      "startTime": 1695186938055,
+      "endTime": 1695186942225,
+      "criteriaId": "6502fa94297c610008daa5f4",
+      "evidenceMethod": "SF",
+      "rubricLevel": ""
+    },
+    "6502fa94297c610008daa5e4": {
+      "qid": "6502fa94297c610008daa5e4",
+      "value": "R1",
+      "question": "Date of birth",
+      "labels": "2023-09-05T10:45:00+05:30",
+      "responseType": "date",
+      "filesNotUploaded": "",
+      "remarks": "",
+      "fileName": [],
+      "gpsLocation": "",
+      "startTime": 1695186938074,
+      "endTime": 1695186942836,
+      "criteriaId": "6502fa94297c610008daa5f4",
+      "evidenceMethod": "SF",
+      "rubricLevel": ""
+    }
+  }
+}

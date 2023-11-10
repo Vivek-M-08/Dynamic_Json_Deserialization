@@ -1,0 +1,28 @@
+{
+  "SURVEYId": {
+    "type": "String",
+    "key": "surveyId",
+    "nullable": false
+  },
+  "UUID": {
+    "type": "String",
+    "key": "createdBy",
+    "nullable": false
+  },
+  "SURVEY_NAME": {
+    "type": "Object",
+    "key": "surveyInformation.description",
+    "nullable" : true
+  },
+  "solutionId": "text",
+  "survey_id": "text",
+  "questionId": "text",
+  "questionExternalId": "text",
+  "questionName": "text",
+  "questionResponseLabel": "text",
+  "questionResponseLabel_number": "text",
+  "questionResponseType": "text",
+  "questionECM": "text",
+  "evidence_count": "Int",
+  "evidences": "text"
+}

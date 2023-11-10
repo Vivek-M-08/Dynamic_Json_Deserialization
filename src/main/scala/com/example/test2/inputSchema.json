@@ -1,0 +1,18 @@
+{
+  "surveyId": "string",
+  "createdBy": "string",
+  "createdAt": "Date",
+  "surveyInformation": {
+    "name": "string",
+    "description": "string"
+  },
+  "answers": {
+    "6502fa94297c610008daa5e3": {
+      "qid": "string",
+      "payload": {
+        "question": "string",
+        "responseType": "string"
+      }
+    }
+  }
+}

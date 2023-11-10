@@ -1,0 +1,25 @@
+{
+  "surveyId": "abcdefgh1234",
+  "createdBy": "123456789xyz",
+  "createdAt": "2022-04-22 10:34:23.55",
+  "surveyInformation": {
+    "name": "Testing Survey for Support",
+    "description": "Description of Survey for Support"
+  },
+  "answers": {
+    "6502fa94297c610008daa5e3": {
+      "qid": "6502fa94297c610008daa5e3",
+      "payload": {
+        "question": "Enter your First name",
+        "responseType": "text"
+      }
+    },
+    "6502fa94297c610008daa5e4": {
+      "qid": "6502fa94297c610008daa5e4"
+    },
+    "payload": {
+      "question": "Enter your Last name",
+      "responseType": "text"
+    }
+  }
+}

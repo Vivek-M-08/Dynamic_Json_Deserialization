@@ -1,0 +1,108 @@
+{
+  "survey_table": {
+    "rowtype": "single",
+    "source": "data",
+    "rowstructure": [
+      {
+        "columnName": "survey_id",
+        "datatype": "String",
+        "source": "surveyId",
+        "nullable": false
+      },
+      {
+        "columnName": "UUID",
+        "datatype": "String",
+        "source": "createdBy",
+        "nullable": false
+      },
+      {
+        "columnName": "solutionId",
+        "datatype": "String",
+        "source": "solutionId",
+        "nullable": false
+      },
+      {
+        "columnName": "solutionExternalId",
+        "datatype": "String",
+        "source": "solutionExternalId",
+        "nullable": false
+      },
+      {
+        "columnName": "isAPrivateProgram",
+        "datatype": "Boolean",
+        "source": "isAPrivateProgram"
+      },
+      {
+        "columnName": "surveyName",
+        "datatype": "String",
+        "source": "surveyInformation.name",
+        "nullable": false
+      },
+      {
+        "columnName": "surveySubmissionId",
+        "datatype": "String",
+        "source": "_id",
+        "nullable": false
+      },
+      {
+        "columnName": "isSubmissiondeleted",
+        "datatype": "Boolean",
+        "source": "deleted"
+      },
+      {
+        "columnName": "createdAt",
+        "datatype": "String",
+        "source": "createdAt",
+        "nullable": false
+      },
+      {
+        "columnName": "updatedAt",
+        "datatype": "String",
+        "source": "updatedAt",
+        "nullable": false
+      },
+      {
+        "columnName": "status",
+        "datatype": "String",
+        "source": "status",
+        "nullable": false
+      }
+    ]
+  },
+  "question_table": {
+    "rowtype": "multiple",
+    "source": "answers",
+    "rowstructure": [
+      {
+        "columnName": "question_id",
+        "datatype": "String",
+        "source": "qid",
+        "nullable": false
+      },
+      {
+        "columnName": "responseType",
+        "datatype": "String",
+        "source": "responseType",
+        "nullable": false
+      },
+      {
+        "columnName": "questionName",
+        "datatype": "String",
+        "source": "question",
+        "nullable": false
+      },
+      {
+        "columnName": "answer",
+        "datatype": "String",
+        "source": "labels",
+        "nullable": false
+      }
+    ]
+  }
+}
+
+
+
+
+
+

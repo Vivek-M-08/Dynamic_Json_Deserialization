@@ -1,0 +1,8 @@
+{
+  "SURVEYId": "surveyId",
+  "UUID": "createdBy",
+  "SURVEY_NAME": "surveyInformation.name",
+  "SURVEY_DESCRIPTION": "surveyInformation.description",
+  "QUESTION": "answers.payload.question"
+
+}

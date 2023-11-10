@@ -1,0 +1,12 @@
+{
+  "SURVEYId": "surveyId",
+  "UUID": "createdBy",
+  "SURVEY_NAME": "surveyInformation.name",
+  "SURVEY_DESCRIPTION": "surveyInformation.description",
+  "QUESTION": "answers.6502fa94297c610008daa5e3.payload.question",
+  "QUESTION": {
+    "type" : "object",
+    "extract" : "payload.question",
+    "mapping" : "question"
+  }
+}
