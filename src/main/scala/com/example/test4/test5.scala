@@ -82,7 +82,7 @@ object test5 {
 
 
   def main(args: Array[String]): Unit = {
-    val schemaPath = "/Users/user/Desktop/Simple_Json_Poc/src/main/scala/com/example/test4/inputSchema.json"
+    val schemaPath = "/Users/user/Desktop/Dynamic_Json_Deserialization/src/main/scala/com/example/test4/inputSchema.json"
     val schemaString = Source.fromFile(schemaPath).mkString
     val jsonSchema: Json = parse(schemaString) match {
       case Right(json) => json
@@ -91,7 +91,7 @@ object test5 {
         Json.obj() // Return an empty JSON object in case of an error
     }
 
-    val eventPath = "/Users/user/Desktop/Simple_Json_Poc/src/main/scala/com/example/test4/event.json"
+    val eventPath = "/Users/user/Desktop/Dynamic_Json_Deserialization/src/main/scala/com/example/test4/event.json"
     val incomingEventString = Source.fromFile(eventPath).mkString
     val jsonData = parse(incomingEventString).getOrElse(Json.obj())
     val data = parse(incomingEventString).getOrElse(Json.obj()).hcursor
@@ -106,7 +106,7 @@ object test5 {
       println("Invalid JSON event")
     }
 
-    val data_mappingPath = "/Users/user/Desktop/Simple_Json_Poc/src/main/scala/com/example/test4/data_mapping1.json"
+    val data_mappingPath = "/Users/user/Desktop/Dynamic_Json_Deserialization/src/main/scala/com/example/test4/data_mapping1.json"
     val mappingString = Source.fromFile(data_mappingPath).mkString
     val dataMapping = parse(mappingString).getOrElse(Json.obj())
     //println("dataMapping = " + dataMapping)

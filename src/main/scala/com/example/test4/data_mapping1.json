@@ -4,13 +4,13 @@
     "source": "data",
     "rowstructure": [
       {
-        "columnName": "survey_id",
+        "columnName": "surveyId",
         "datatype": "String",
         "source": "surveyId",
         "nullable": false
       },
       {
-        "columnName": "UUID",
+        "columnName": "userId",
         "datatype": "String",
         "source": "createdBy",
         "nullable": false
@@ -74,25 +74,43 @@
     "source": "answers",
     "rowstructure": [
       {
-        "columnName": "question_id",
+        "columnName": "surveyId",
+        "extractionFrom": "parent",
+        "datatype": "String",
+        "source": "surveyId",
+        "nullable": false
+      },
+      {
+        "columnName": "solutionId",
+        "extractionFrom": "parent",
+        "datatype": "String",
+        "source": "solutionId",
+        "nullable": false
+      },
+      {
+        "columnName": "questionId",
+        "extractionFrom": "child",
         "datatype": "String",
         "source": "qid",
         "nullable": false
       },
       {
         "columnName": "responseType",
+        "extractionFrom": "child",
         "datatype": "String",
         "source": "responseType",
         "nullable": false
       },
       {
         "columnName": "questionName",
+        "extractionFrom": "child",
         "datatype": "String",
         "source": "question",
         "nullable": false
       },
       {
         "columnName": "answer",
+        "extractionFrom": "child",
         "datatype": "String",
         "source": "labels",
         "nullable": false
